@@ -12,3 +12,15 @@
 	$email_body = "You have received a new message from the subject $subject.\n".
                             "Here is the message:\n $message".
 ?>
+
+<?php
+
+  $to = "rudd.rocker@gmail.com";
+
+  $headers = "From: $email_from \r\n";
+
+  $headers .= "Reply-To: $visitor_email \r\n";
+
+  mail($to,$email_subject,$email_body,$headers);
+
+ ?>
