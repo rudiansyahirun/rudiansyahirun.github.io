@@ -1,0 +1,89 @@
+:root {
+  --main: #2a4c62;
+  --second: #545454;
+}
+
+.gradient {
+  background: linear-gradient(120deg, var(--second), var(--main));
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: var(--main);
+  border-color: var(--main);
+}
+
+a:hover {
+  color: var(--second);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--second);
+  border-color: var(--main);
+}
+
+.special-skill-item .icon {
+  text-align: center;
+  font-size: 50px;
+  background-color: var(--second);
+  color: #fff;
+  height: 70px;
+  width: 70px;
+  line-height: 69px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.page-footer .social-icons a {
+  font-size: 18px;
+  margin: 0 3px;
+  color: #fff;
+  border: 1px solid;
+  opacity: .75;
+  border-radius: 50%;
+  width: 36px;
+  display: inline-block;
+  height: 36px;
+  text-align: center;
+  background-color: var(--second);
+  line-height: 34px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--second);
+  border-color: var(--second);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--main);
+  border-color: var(--main);
+}
+
+.portfolio-block.cv .group .organization {
+  font-size: .85em;
+  background-color: var(--second);
+  display: inline-block;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2em;
+}
+
+.portfolio-block.cv .education.group .organization {
+  background-color: var(--main);
+}
+
+.portfolio-info-card.contact-info .icon {
+  font-size: 1.3em;
+  color: var(--second);
+  position: relative;
+  bottom: 4px;
+}
+
+a {
+  color: var(--main);
+  text-decoration: underline;
+}
+

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/myStyles.css">
 </head>
 
 <body>
@@ -32,16 +33,16 @@
                 <div class="heading">
                     <h2>Hire Me</h2>
                 </div>
-                <form method="post" name="myemailform" action="form-to-email.php">
-                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><select class="form-select" id="subject">
+                <form data-bss-recipient="8dbd9e33aaeb0f992fc8a51bde909ea1">
+                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><select class="form-select" id="subject" name="subject">
                             <optgroup label="Reqruiter's Subjects">
                                 <option value="We want you" selected="">We want you!</option>
                                 <option value="Come join us">Come join us!</option>
                                 <option value="Reply me soon">Reply me soon!</option>
                             </optgroup>
                         </select></div>
-                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" placeholder="visitor_email@domain.com"></div>
-                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message" placeholder="Dear Rudi, ..."></textarea></div>
+                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" placeholder="visitor_email@domain.com" name="email"></div>
+                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control" id="message" placeholder="Dear Rudi, ..." name="message"></textarea></div>
                     <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit">Hire Me</button></div>
                 </form>
             </div>
@@ -54,6 +55,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/Lightbox-Gallery-No-Gutters.js"></script>
